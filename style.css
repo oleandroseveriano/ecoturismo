@@ -1,0 +1,161 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-family: 'Bungee', sans-serif;
+    font-size: 1.8em;
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+    color: #fff;
+    background-color: black;
+}
+
+section {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.main-image {
+    width: 100%;
+    max-width: 600px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+section p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.highlights-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.highlights-list li img {
+    width: 80px;
+    height: 80px;
+}
+
+#contact .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact-methods > div {
+    flex: 1;
+    min-width: 250px;
+}
+
+.contact-methods h3 {
+    margin-top: 0;
+}
+
+.contact-methods form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-methods form input, 
+.contact-methods form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-methods form button {
+    padding: 10px;
+    font-size: 1em;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-methods form button:hover {
+    background-color: black;
+    color: white;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-links li a img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
